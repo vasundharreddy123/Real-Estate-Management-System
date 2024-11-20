@@ -1,0 +1,60 @@
+/* Main button styling */
+.header-bottom-actions-btn {
+  position: relative;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Icon and text styling */
+.header-bottom-actions-btn ion-icon {
+  font-size: 24px;
+  color: green;
+  margin-bottom: 5px;
+}
+
+.profile-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.welcome-text {
+  font-size: 14px;
+  color: green;
+  margin: 5px 0;
+  text-align: center;
+}
+
+/* Dropdown styling */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.header-bottom-actions-btn:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
